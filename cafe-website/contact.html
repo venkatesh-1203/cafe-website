@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café Aura | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">Café Aura</a>
+            <button class="nav-toggle" aria-label="Open menu">☕</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Menu</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero contact-hero reveal">
+            <div class="container">
+                <p class="eyebrow">Get in touch</p>
+                <h1>Need a reservation or want to say hello?</h1>
+                <p>Send us a note, book a table, or stop by for a curated coffee moment.</p>
+            </div>
+        </section>
+
+        <section class="contact-section container reveal">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contact details</h2>
+                    <p>We’re here to help with orders, events, and menu questions.</p>
+                    <div class="info-card">
+                        <strong>Phone</strong>
+                        <p>(555) 012-3456</p>
+                    </div>
+                    <div class="info-card">
+                        <strong>Email</strong>
+                        <p>hello@cafeaura.com</p>
+                    </div>
+                    <div class="info-card">
+                        <strong>Location</strong>
+                        <p>123 Brew Lane, Coffee City</p>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us what you need"
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-note">This form is frontend-only. We’ll show a confirmation right away.</p>
+                </form>
+            </div>
+        </section>
+
+        <section class="map-section container reveal">
+            <div class="section-head">
+                <p class="eyebrow">Find us</p>
+                <h2>Stop by for coffee and calm vibes.</h2>
+            </div>
+            <div class="map-card">
+                <iframe title="Café Aura Location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.1669626036567!2d-122.41941508468151!3d37.77492927975917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c8f9932af%3A0x53e6a19df323a8d3!2sCoffee%20Shop!5e0!3m2!1sen!2sus!4v1700000000000"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <a href="index.html" class="brand">Café Aura</a>
+                <p>Premium coffee, warm design, calm mornings.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="services.html">Menu</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
